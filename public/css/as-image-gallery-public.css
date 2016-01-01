@@ -1,0 +1,29 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ul.list-inline {
+	padding-left: 0px !important;
+	margin-left: -5px;
+	list-style: outside none none;
+}
+
+ul.list-inline > li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	width: auto !important;
+}
+
+.list-inline li a, .list-inline li a img {
+    float: left;
+}
+
+.list-inline li a span.thumbnail-image-title{
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    background-color: #ddd;
+    padding: 5px;
+}
